@@ -1,0 +1,83 @@
+{
+  "value": [
+    {
+      "@odata.etag": "string",
+      "id": "string",
+      "createdDateTime": "string (ISO 8601 date and time)",
+      "lastModifiedDateTime": "string (ISO 8601 date and time)",
+      "changeKey": "string",
+      "categories": [ "string" ],
+      "transactionId": "null or string",
+      "originalStartTimeZone": "string",
+      "originalEndTimeZone": "string",
+      "iCalUId": "string",
+      "reminderMinutesBeforeStart": "number",
+      "isReminderOn": "boolean",
+      "hasAttachments": "boolean",
+      "subject": "string",
+      "bodyPreview": "string",
+      "importance": "string (e.g., 'low', 'normal', 'high')",
+      "sensitivity": "string (e.g., 'normal', 'personal')",
+      "isAllDay": "boolean",
+      "isCancelled": "boolean",
+      "isOrganizer": "boolean",
+      "responseRequested": "boolean",
+      "seriesMasterId": "null or string",
+      "showAs": "string (e.g., 'free', 'busy')",
+      "type": "string (e.g., 'singleInstance')",
+      "webLink": "string (URL)",
+      "onlineMeetingUrl": "null or string",
+      "isOnlineMeeting": "boolean",
+      "onlineMeetingProvider": "string",
+      "allowNewTimeProposals": "boolean",
+      "occurrenceId": "null or string",
+      "isDraft": "boolean",
+      "hideAttendees": "boolean",
+      "responseStatus": {
+        "response": "string",
+        "time": "string (ISO 8601 date and time)"
+      },
+      "body": {
+        "contentType": "string (e.g., 'html')",
+        "content": "string (HTML content)"
+      },
+      "start": {
+        "dateTime": "string (ISO 8601 date and time)",
+        "timeZone": "string"
+      },
+      "end": {
+        "dateTime": "string (ISO 8601 date and time)",
+        "timeZone": "string"
+      },
+      "location": {
+        "displayName": "string",
+        "locationType": "string (e.g., 'default')",
+        "uniqueIdType": "string (e.g., 'unknown')",
+        "address": {},
+        "coordinates": {}
+      },
+      "locations": [],
+      "recurrence": "null or object",
+      "attendees": [
+        {
+          "type": "string (e.g., 'required')",
+          "status": {
+            "response": "string",
+            "time": "string (ISO 8601 date and time)"
+          },
+          "emailAddress": {
+            "name": "string",
+            "address": "string (email address)"
+          }
+        }
+      ],
+      "organizer": {
+        "emailAddress": {
+          "name": "string",
+          "address": "string (email address)"
+        }
+      },
+      "onlineMeeting": "null or object"
+    }
+  ]
+}
